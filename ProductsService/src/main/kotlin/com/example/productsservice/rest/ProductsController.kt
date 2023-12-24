@@ -24,6 +24,7 @@ class ProductsController {
     }
 
     @GetMapping
+    @ResponseStatus(HttpStatus.OK)
     @Operation(
         summary = "xxxx"
     )
