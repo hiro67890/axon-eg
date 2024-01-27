@@ -27,6 +27,8 @@ dependencies {
 
     // Added
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0")
+    implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.0.3")
+
 }
 
 tasks.withType<KotlinCompile> {
